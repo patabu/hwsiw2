@@ -1,0 +1,177 @@
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+
+.hero-cta a {
+  color: green;
+  text-decoration: none;
+}
+
+.left-col {
+  margin: 3em 3em 0 5em;
+}
+
+.subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: .1em;
+}
+
+h1 {
+  font-size: 3em;
+  width: 90%;
+}
+
+.hero {
+  background-color: #DFDFDF;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 2em 0em;
+}
+
+.hero-img {
+  width: 20%;
+  margin-right: 8em;
+  object-fit: cover;
+}
+
+.hero-cta a:hover {
+  background-color: beige;
+  display: table;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.hero-cta {
+  flex-direction: column;
+}
+
+.col {
+  display: block;
+}
+
+.maps {
+  display: flex;
+  flex-direction: row;
+}
+
+.col > img {
+  margin-left: .2em;
+  width: 1.5em;
+  height: auto;
+}
+
+.research {
+  background-color:#20272E;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+.research .container h1 {
+  margin: 0;
+  padding-top: .5em
+}
+
+.research-title {
+  font-size: 1.5em;
+  text-align: left;
+  color: #68d468;
+}
+
+.research-content {
+  margin-bottom: 3em;
+  font-size: .9em;
+  color:#F2F2F2;
+}
+
+.research-content li {
+  margin: 1.5em 1.5em;
+}
+
+.li-color a {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+
+.li-color:hover {
+  background-color:#7e9a7e;
+  display: table;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 2em;
+}
+
+.research-other ul > li {
+  display: inline-block;
+  justify-content:space-between;
+  margin: 1.5em 12.5em 1.5em 1.5em;
+  max-width: 15em;
+  color: white;
+}
+
+.research-other ul > li > h2 {
+  text-decoration: underline;
+}
+
+ul > li > a{
+  display: block;
+  color: #68d468;
+  text-decoration: none;
+}
+
+ul > .lee > a:hover {
+  background-color: beige;
+}
+
+.teaching {
+}
+
+.teaching .container h1 {
+  margin: 0;
+  text-align: center;
+  margin: 1em 2em;
+  padding-top: 1em;
+}
+
+.teaching .container ul {
+  display: flex;
+  padding: 0;
+}
+
+.teaching ul li {
+  height: auto;
+  text-align: center;
+  padding: 2em 1em;
+  width: 20%;
+  margin: 0 auto .5em auto;
+  border: solid 1px;
+  border-radius: .8em;
+  background-color: #68D468;
+}
+
+.teaching ul li h2 {
+  text-decoration: underline;
+}
+
+.teaching ul li h3 {
+  color:rgb(3, 3, 3)
+}
+
+.acca {
+  padding: 0;
+}
+
+.teaching .tirocini ul li {
+  background-color: #20272E;
+}

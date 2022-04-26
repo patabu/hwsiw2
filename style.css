@@ -1,6 +1,7 @@
 body {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
+  background-color: #DFDFDF;
 }
 
 .hero-cta a {
@@ -157,21 +158,17 @@ ul > .lee > a:hover {
   margin: 0 auto .5em auto;
   border: solid 1px;
   border-radius: .8em;
-  background-color: #68D468;
+  background-color: #20272E;
 }
 
 .teaching ul li h2 {
-  text-decoration: underline;
+  color: #68d468;
 }
 
 .teaching ul li h3 {
-  color:rgb(3, 3, 3)
+  color:white;
 }
 
 .acca {
   padding: 0;
-}
-
-.teaching .tirocini ul li {
-  background-color: #20272E;
 }
